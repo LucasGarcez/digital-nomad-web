@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Digital Nomad Web
 
-## Getting Started
+Aplicação web completa inspirada nos principais destinos de viagem escolhidos por nômades digitais. Esta é a versão web do projeto [Digital Nomad App](https://github.com/LucasGarcez/digital-nomad-app).
 
-First, run the development server:
+O usuário poderá explorar destinos ao redor do mundo, visualizar detalhes como pontos turísticos, descrição da cidade e mapa interativo. A aplicação inclui funcionalidades como busca, favoritos, filtros e autenticação.
+
+## 🚀 Como Executar
+
+Primeiro, instale as dependências:
+
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+```
+
+Em seguida, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologias
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15** - Framework React com App Router
+- **TypeScript** - Tipagem estática para JavaScript
+- **Tailwind CSS** - Framework CSS utilitário
+- **Supabase** - Backend completo com banco de dados PostgreSQL, autenticação e storage
+- **TanStack Query** - Controle eficiente de estados assíncronos e cache
 
-## Learn More
+## 📱 Projeto Principal
 
-To learn more about Next.js, take a look at the following resources:
+Este é o projeto web complementar ao aplicativo mobile [Digital Nomad App](https://github.com/LucasGarcez/digital-nomad-app), desenvolvido em React Native com Expo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A maneira mais fácil de fazer deploy da sua aplicação Next.js é usar a [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-## Deploy on Vercel
+Confira nossa [documentação de deploy do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Aprenda Mais
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para aprender mais sobre Next.js, confira os seguintes recursos:
+
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre recursos e API do Next.js
+- [Aprenda Next.js](https://nextjs.org/learn) - tutorial interativo do Next.js
+
+## 👨🏻‍💻 Professor
+
+## 👨🏻‍💻 Quem é seu Professor?
+
+**Lucas Garcez** é um especialista de destaque em React e TypeScript, com **mais de 6 anos de experiência** prática no desenvolvimento de aplicativos de alto desempenho para empresas no **Brasil e no exterior**. Reconhecido por sua capacidade única de simplificar o complexo e por sua **abordagem prática e didática**, Lucas é a referência no ensino de **programação avançada**. Atualmente, ele reside na Austrália, onde atua como **engenheiro de software sênior**, aplicando diariamente as técnicas e conceitos que ensina. Com isso, ele oferece aos seus alunos um **conhecimento diretamente alinhado às demandas do mercado global**, tornando-se um dos poucos professores qualificados a ensinar **React e TypeScript no nível que as empresas realmente exigem**.
+
+- [LinkedIn](https://www.linkedin.com/in/lucas-garcez-a5636b157/?locale=pt_BR)
+- [GitHub](https://github.com/LucasGarcez)
+- [YouTube](https://www.youtube.com/@Coffstack)
+- [Instagram](https://www.instagram.com/lucasgar6/)
